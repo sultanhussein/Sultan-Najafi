@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sultan Najafi</title>
+  <title>Sultan Najafi | Portfolio</title>
   <meta
     name="description"
-    content="Persönliche Homepage von Sultan Najafi mit Informationen, Projekten und Kontaktformular."
+    content="Persönliche Portfolio-Website von Sultan Najafi mit Informationen zu Ausbildung, Fähigkeiten, Projekten und Kontakt."
   />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -19,6 +19,8 @@
         <ul class="nav-links">
           <li><a href="#start">Start</a></li>
           <li><a href="#ueber-mich">Über mich</a></li>
+          <li><a href="#faehigkeiten">Fähigkeiten</a></li>
+          <li><a href="#projekte">Projekte</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
@@ -26,51 +28,163 @@
   </header>
 
   <main>
-    <section id="start" class="hero">
-      <div class="container">
-        <img src="mein-foto.jpg" alt="Profilbild von Sultan Najafi" class="profilbild" />
+    <section id="start" class="hero hero-portfolio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-kicker">Portfolio · IT · Webentwicklung</p>
+          <h1>Hallo, ich bin Sultan Najafi.</h1>
+          <p class="hero-lead">
+            Ich bin IT-Auszubildender und beschäftige mich mit Webentwicklung,
+            modernen Technologien und praxisnahen digitalen Lösungen.
+          </p>
+          <p class="hero-text">
+            Auf dieser Website zeige ich meinen aktuellen Lernweg, erste Projekte
+            und Möglichkeiten, mit mir in Kontakt zu treten.
+          </p>
 
-        <h1>Willkommen auf meiner Homepage</h1>
+          <div class="hero-actions">
+            <a class="button" href="#projekte">Meine Projekte</a>
+            <a class="button button-outline" href="#kontakt">Kontakt aufnehmen</a>
+          </div>
+        </div>
 
-        <p>
-          Ich unterstütze dich schrittweise auf deinem Weg zum passenden Job,
-          Ausbildungsplatz, FSJ oder Praktikum.
-        </p>
-
-        <a class="button" href="#kontakt">Kontakt aufnehmen</a>
+        <div class="hero-visual">
+          <img src="mein-foto.jpg" alt="Profilbild von Sultan Najafi" class="profilbild profilbild-large" />
+        </div>
       </div>
     </section>
 
     <section id="ueber-mich" class="section">
       <div class="container">
-        <h2>Über mich</h2>
-
-        <p>
-          Ich bin IT-Auszubildender und interessiere mich für Webseiten, Technik und moderne IT-Lösungen.
-        </p>
+        <div class="section-header">
+          <p class="section-kicker">Über mich</p>
+          <h2>Motiviert, lernbereit und praxisorientiert</h2>
+          <p class="section-intro">
+            Ich befinde mich in der IT-Ausbildung und erweitere mein Wissen Schritt für Schritt
+            in den Bereichen Webentwicklung, Hosting und digitale Anwendungen.
+          </p>
+        </div>
 
         <div class="cards">
           <article class="card">
             <h3>Aktueller Stand</h3>
             <p>
-              Ich bin aktuell in der Ausbildung und sammle praktische Erfahrungen im IT-Bereich.
+              Ich sammle praktische Erfahrungen im IT-Bereich und setze mein Wissen
+              in eigenen Projekten direkt um.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Mein Fokus</h3>
+            <p>
+              Ich arbeite aktuell besonders an HTML, CSS, JavaScript, Hosting
+              und dem Aufbau moderner, benutzerfreundlicher Webseiten.
             </p>
           </article>
 
           <article class="card">
             <h3>Mein Ziel</h3>
             <p>
-              Ich vertiefe täglich meine IT-Kenntnisse, um moderne Technologien praxisnah einzusetzen
-              und Menschen bei ihren digitalen Herausforderungen zuverlässig zu unterstützen.
+              Ich möchte meine Fähigkeiten kontinuierlich ausbauen und mich
+              fachlich erfolgreich als Fachinformatiker weiterentwickeln.
             </p>
           </article>
+        </div>
+      </div>
+    </section>
 
-          <article class="card">
-            <h3>Nächster Schritt</h3>
+    <section id="faehigkeiten" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Fähigkeiten</p>
+          <h2>Woran ich aktuell arbeite</h2>
+          <p class="section-intro">
+            Diese Technologien und Themen gehören aktuell zu meinem Lern- und Arbeitsalltag.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>HTML</h3>
+            <p>Strukturierte und saubere Erstellung moderner Webseiten.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>CSS</h3>
+            <p>Layout, Farben, responsive Design und visuelle Gestaltung.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Interaktive Funktionen wie Formular-Logik und Statusmeldungen.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>GitHub Pages</h3>
+            <p>Kostenloses Hosting und Veröffentlichung statischer Websites.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Formspree</h3>
+            <p>Einbindung eines funktionierenden Kontaktformulars ohne eigenes Backend.</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Lernbereitschaft</h3>
+            <p>Kontinuierliches Lernen, Ausprobieren und Weiterentwickeln.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekte" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Projekte</p>
+          <h2>Erste praktische Arbeiten</h2>
+          <p class="section-intro">
+            Diese Projekte zeigen meinen aktuellen Entwicklungsstand und meinen Lernfortschritt.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Persönliche Homepage</h3>
             <p>
-              Mein nächstes Ziel ist es, mich fachlich weiterzuentwickeln und meinen Weg als
-              Fachinformatiker erfolgreich fortzusetzen.
+              Entwicklung einer eigenen Website mit Bild, Navigation, responsivem Layout
+              und sauberer Grundstruktur.
             </p>
+            <div class="tag-list">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Kontaktformular mit Formspree</h3>
+            <p>
+              Umsetzung eines kostenlosen Formulars mit Versandfunktion,
+              Statusmeldung und einfacher Spam-Schutz-Logik.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Formspree</span>
+              <span class="tag">UX</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Hosting mit GitHub Pages</h3>
+            <p>
+              Veröffentlichung der Website im Web und saubere Strukturierung
+              aller Dateien für ein funktionierendes Live-Projekt.
+            </p>
+            <div class="tag-list">
+              <span class="tag">GitHub</span>
+              <span class="tag">Hosting</span>
+              <span class="tag">Web</span>
+            </div>
           </article>
         </div>
       </div>
@@ -79,10 +193,12 @@
     <section id="kontakt" class="section section-alt">
       <div class="container">
         <div class="contact-wrapper">
-          <div class="contact-header">
-            <h2>Kontakt</h2>
-            <p class="contact-intro">
-              Nutze einfach das Formular, um mir direkt eine Nachricht zu senden.
+          <div class="section-header">
+            <p class="section-kicker">Kontakt</p>
+            <h2>Schreib mir gerne eine Nachricht</h2>
+            <p class="section-intro">
+              Wenn du Fragen hast oder mit mir in Kontakt treten möchtest,
+              kannst du mir direkt über dieses Formular schreiben.
             </p>
           </div>
 
@@ -176,12 +292,15 @@
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p>© 2026 Sultan Najafi. Alle Rechte vorbehalten.</p>
+      <div>
+        <p>© 2026 Sultan Najafi. Alle Rechte vorbehalten.</p>
+        <p class="footer-note">Erstellt mit HTML, CSS, JavaScript und viel Lernmotivation.</p>
+      </div>
 
       <div class="footer-links">
-  <a href="impressum.html">Impressum</a>
-  <a href="datenschutz.html">Datenschutz</a>
-</div>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
     </div>
   </footer>
 
